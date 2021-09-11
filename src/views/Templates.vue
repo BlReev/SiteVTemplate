@@ -8,18 +8,6 @@
         :key="index"
         v-bind="template"
       ></template-card>
-      <template-card
-        class="column is-4 no-padding"
-        v-for="(template, index) in templateRoutes"
-        :key="index"
-        v-bind="template"
-      ></template-card>
-      <template-card
-        class="column is-4 no-padding"
-        v-for="(template, index) in templateRoutes"
-        :key="index"
-        v-bind="template"
-      ></template-card>
     </div>
   </div>
 </template>

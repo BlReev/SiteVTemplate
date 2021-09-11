@@ -1,12 +1,12 @@
 <template>
-  <div class="template-main" :id="'template' + id">
+  <div class="template-main is-grid" :id="'template' + id">
     <router-view class="template-view" />
   </div>
 </template>
 <script>
 import Home from "./views/Home.vue";
 
-export const id = 1;
+export const id = "flights";
 export const name = "Flights";
 export const routes = [{ path: "", component: Home }];
 export default {

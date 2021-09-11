@@ -52,6 +52,8 @@ export default {
 .template-component
   width: 100%
   aspect-ratio: 4 / 3
+  zoom: 0.5
+
 .card
   max-width: 500px
 </style>
